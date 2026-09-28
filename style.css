@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(blue);
+    color: var(black); /* ini yang atur warna teks utama */
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgb(240, 138, 243);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(241, 214, 169, 0.895);
+}
+
+.header {
+    background: linear-gradient(135deg, var(cream), #6a1bb8);
+    color: var(--warna-teks-header);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    background-color: #f1c6f4;
+    border-radius: 10px 20px;
+    display: inline-block;
+}
+
+.header p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+
+.header img {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; /* 50% = bulat, 0% = kotak, 15px = tumpul */
+    border: 4px solid rgb(250, 220, 174);
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 30px;
+}
+
+.content h2 {
+    color: var(--warna-utama);
+    border-bottom: 2px solid var(--warna-utama);
+    padding-bottom: 5px;
+    margin: 25px 0 15px 0;
+    font-size: 20px;
+}
+
+.biodata p, .pendidikan h3 {
+    margin-bottom: 8px;
+    color: var(black); 
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.penutup {
+    background-color: #f6f2ef;
+    padding: 15px;
+    border-left: 4px solid var(--warna-utama);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.content {
+    padding: 30px 60px; 
+    text-align: left;
+}
+
+.content h2 {
+    color: var(blue);
+    border-bottom: 2px solid var(black);
+    padding-bottom: 5px;
+    margin: 25px 0 15px 0;
+    text-align: left; 
+}
+
+.biodata p, .pendidikan h3, .pendidikan p, ul, .penutup {
+    text-align: left;
+    margin-left: 0;
+}
